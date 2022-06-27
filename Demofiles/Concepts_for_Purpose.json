@@ -1,0 +1,174 @@
+[
+    {
+        "id": 6378318,
+        "name": "Außenbauteil",
+        "code": null,
+        "description": null,
+        "datatype": "Property",
+        "actor_id": 5679,
+        "template_id": 6378137,
+        "parent_id": 6378267,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 6378323,
+        "name": "Außenbauteil",
+        "code": null,
+        "description": null,
+        "datatype": "Property",
+        "actor_id": 5679,
+        "template_id": 6378137,
+        "parent_id": 6378268,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 6378359,
+        "name": "Außenbauteil",
+        "code": null,
+        "description": null,
+        "datatype": "Property",
+        "actor_id": 5679,
+        "template_id": 6378137,
+        "parent_id": 6378275,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 6378324,
+        "name": "Bauteiltyp",
+        "code": null,
+        "description": null,
+        "datatype": "Property",
+        "actor_id": 5679,
+        "template_id": 6378139,
+        "parent_id": 6378268,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 6378300,
+        "name": "CKBauteiltyp",
+        "code": null,
+        "description": null,
+        "datatype": "Property",
+        "actor_id": 5679,
+        "template_id": 6378144,
+        "parent_id": 6378262,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 6378361,
+        "name": "Feuerwiderstandsklasse",
+        "code": null,
+        "description": null,
+        "datatype": "Property",
+        "actor_id": 5679,
+        "template_id": 6378140,
+        "parent_id": 6378275,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "values": [
+            {
+                "id": 6378418,
+                "name": "F30"
+            },
+            {
+                "id": 6378419,
+                "name": "F60"
+            },
+            {
+                "id": 6378420,
+                "name": "F90"
+            }
+        ]
+    },
+    {
+        "id": 6378320,
+        "name": "Feuerwiderstandsklasse",
+        "code": null,
+        "description": null,
+        "datatype": "Property",
+        "actor_id": 5679,
+        "template_id": 6378140,
+        "parent_id": 6378267,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "values": [
+            {
+                "id": 6378405,
+                "name": "F30"
+            },
+            {
+                "id": 6378406,
+                "name": "F60"
+            },
+            {
+                "id": 6378407,
+                "name": "F90"
+            }
+        ]
+    },
+    {
+        "id": 6380086,
+        "name": "Name",
+        "code": null,
+        "description": null,
+        "datatype": "Property",
+        "actor_id": 5679,
+        "template_id": 6378153,
+        "parent_id": 6378267,
+        "created_at": "2021-10-15T09:35:52.127+02:00",
+        "updated_at": "2021-10-15T09:35:52.127+02:00"
+    },
+    {
+        "id": 6378343,
+        "name": "Testwert",
+        "code": null,
+        "description": null,
+        "datatype": "Property",
+        "actor_id": 5679,
+        "template_id": 6378154,
+        "parent_id": 6378262,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 6378325,
+        "name": "Tragendes Bauteil",
+        "code": null,
+        "description": null,
+        "datatype": "Property",
+        "actor_id": 5679,
+        "template_id": 6378138,
+        "parent_id": 6378268,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 6378322,
+        "name": "Wärmedurchgangskoeffizient  (U-Wert)",
+        "code": null,
+        "description": null,
+        "datatype": "Property",
+        "actor_id": 5679,
+        "template_id": 6378142,
+        "parent_id": 6378267,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2022-06-21T09:46:33.193+02:00"
+    },
+    {
+        "id": 6378326,
+        "name": "Wärmedurchgangskoeffizient  (U-Wert)",
+        "code": null,
+        "description": null,
+        "datatype": "Property",
+        "actor_id": 5679,
+        "template_id": 6378142,
+        "parent_id": 6378268,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2022-06-21T09:46:33.467+02:00"
+    }
+]
