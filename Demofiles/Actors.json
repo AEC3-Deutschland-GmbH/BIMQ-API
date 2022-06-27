@@ -1,0 +1,52 @@
+[
+    {
+        "id": 5679,
+        "name": "CKPlaner",
+        "code": "OBJ",
+        "description": null,
+        "context_id": 1097,
+        "parent_id": null,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 5680,
+        "name": "TGAler",
+        "code": "TGA",
+        "description": null,
+        "context_id": 1097,
+        "parent_id": null,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 5681,
+        "name": "Statiker",
+        "code": "TWP",
+        "description": null,
+        "context_id": 1097,
+        "parent_id": null,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 5682,
+        "name": "Tragwerksplaner",
+        "code": "TP",
+        "description": null,
+        "context_id": 1097,
+        "parent_id": null,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 5683,
+        "name": "Objektplaner",
+        "code": "OP",
+        "description": "N/A",
+        "context_id": 1097,
+        "parent_id": null,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    }
+]
