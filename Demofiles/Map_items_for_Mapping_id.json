@@ -1,0 +1,947 @@
+[
+    {
+        "id": 3123976,
+        "name": "IfcSpatialElement Attributes.LongName",
+        "code": null,
+        "description": null,
+        "concept_id": 6378149,
+        "concept_reference_name": "6152929",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123893,
+        "name": "*.IsExternal",
+        "code": null,
+        "description": null,
+        "concept_id": 6378137,
+        "concept_reference_name": "553983",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123896,
+        "name": "IfcWall.##.##.Pset_WallCommon.IsExternal:True Pset_WallCommon.LoadBearing:True ",
+        "code": null,
+        "description": null,
+        "concept_id": 6378102,
+        "concept_reference_name": "549471",
+        "predefinedtype": null,
+        "user_defined_type": "",
+        "extended_settings": {
+            "property": [
+                {
+                    "property_group_id": 6378108,
+                    "property_id": 6378137,
+                    "property_name": "Außenbauteil",
+                    "property_value": "True"
+                },
+                {
+                    "property_group_id": 6378108,
+                    "property_id": 6378138,
+                    "property_name": "Tragendes Bauteil",
+                    "property_value": "True"
+                }
+            ]
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123900,
+        "name": "*.LoadBearing",
+        "code": null,
+        "description": null,
+        "concept_id": 6378138,
+        "concept_reference_name": "551761",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124051,
+        "name": "BaseQuantities.Width",
+        "code": null,
+        "description": null,
+        "concept_id": 6378304,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124056,
+        "name": "IfcWindow",
+        "code": null,
+        "description": null,
+        "concept_id": 6378116,
+        "concept_reference_name": "549472",
+        "predefinedtype": null,
+        "user_defined_type": "",
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124061,
+        "name": "IFC Eigenschaften",
+        "code": null,
+        "description": null,
+        "concept_id": 6378112,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124067,
+        "name": "IfcWall",
+        "code": null,
+        "description": null,
+        "concept_id": 6378155,
+        "concept_reference_name": "549471",
+        "predefinedtype": null,
+        "user_defined_type": "",
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124073,
+        "name": "IfcSlab",
+        "code": null,
+        "description": null,
+        "concept_id": 6378156,
+        "concept_reference_name": "549468",
+        "predefinedtype": null,
+        "user_defined_type": "",
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124077,
+        "name": "IfcDoor",
+        "code": null,
+        "description": null,
+        "concept_id": 6378157,
+        "concept_reference_name": "549458",
+        "predefinedtype": null,
+        "user_defined_type": "",
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124083,
+        "name": "IfcWindow",
+        "code": null,
+        "description": null,
+        "concept_id": 6378158,
+        "concept_reference_name": "549472",
+        "predefinedtype": null,
+        "user_defined_type": "",
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124088,
+        "name": "IfcRoof",
+        "code": null,
+        "description": null,
+        "concept_id": 6378159,
+        "concept_reference_name": "549466",
+        "predefinedtype": null,
+        "user_defined_type": "",
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124094,
+        "name": "IfcPile",
+        "code": null,
+        "description": null,
+        "concept_id": 6378160,
+        "concept_reference_name": "549461",
+        "predefinedtype": null,
+        "user_defined_type": "",
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124106,
+        "name": "#.DasIstEinTest",
+        "code": null,
+        "description": null,
+        "concept_id": 6378161,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124113,
+        "name": "Fussbodenaufbau",
+        "code": null,
+        "description": null,
+        "concept_id": 6378162,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124122,
+        "name": "Tragende_Decken",
+        "code": null,
+        "description": null,
+        "concept_id": 6378163,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124123,
+        "name": "IfcBuildingElementProxy",
+        "code": null,
+        "description": null,
+        "concept_id": 6378216,
+        "concept_reference_name": "549453",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124127,
+        "name": "IfcBuildingElementProxy",
+        "code": null,
+        "description": null,
+        "concept_id": 6378217,
+        "concept_reference_name": "549453",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124133,
+        "name": "Stahlbeton",
+        "code": null,
+        "description": null,
+        "concept_id": 6378124,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124141,
+        "name": "#.Betonkurzbezeichnung_(B1_B12)",
+        "code": null,
+        "description": null,
+        "concept_id": 6378164,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124146,
+        "name": "#.Bewehrungsgrad_kgm3",
+        "code": null,
+        "description": null,
+        "concept_id": 6378165,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124151,
+        "name": "#.Druckfestigkeitsklasse_Beton",
+        "code": null,
+        "description": null,
+        "concept_id": 6378166,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124156,
+        "name": "Pset_ConcreteElementGeneral.ExposureClass",
+        "code": null,
+        "description": null,
+        "concept_id": 6378167,
+        "concept_reference_name": "551943",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124161,
+        "name": "#.Funktion_Stahlbetonarbeiten",
+        "code": null,
+        "description": null,
+        "concept_id": 6378168,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124166,
+        "name": "#.Unterstellungshoehe_STB",
+        "code": null,
+        "description": null,
+        "concept_id": 6378169,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124169,
+        "name": "#.BreiteHöhe",
+        "code": null,
+        "description": null,
+        "concept_id": 6378121,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124175,
+        "name": "#.AttTest",
+        "code": null,
+        "description": null,
+        "concept_id": 6378122,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124181,
+        "name": "#.Lichte_Weite_Elementdecke",
+        "code": null,
+        "description": null,
+        "concept_id": 6378170,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124186,
+        "name": "#.zulaessige_Auflast_Elementdecke",
+        "code": null,
+        "description": null,
+        "concept_id": 6378171,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124202,
+        "name": "#.Test?Test",
+        "code": null,
+        "description": null,
+        "concept_id": 6378126,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123977,
+        "name": "IfcElement Attributes.Name",
+        "code": null,
+        "description": null,
+        "concept_id": 6378150,
+        "concept_reference_name": "6152925",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123979,
+        "name": "IfcWall.##.##.Pset_WallCommon.IsExternal:False Pset_WallCommon.LoadBearing:False ",
+        "code": null,
+        "description": null,
+        "concept_id": 6378104,
+        "concept_reference_name": "549471",
+        "predefinedtype": null,
+        "user_defined_type": "",
+        "extended_settings": {
+            "property": [
+                {
+                    "property_group_id": 6378108,
+                    "property_id": 6378137,
+                    "property_name": "Außenbauteil",
+                    "property_value": "False"
+                },
+                {
+                    "property_group_id": 6378108,
+                    "property_id": 6378138,
+                    "property_name": "Tragendes Bauteil",
+                    "property_value": "False"
+                }
+            ]
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123981,
+        "name": "CKs Eigenschaften",
+        "code": null,
+        "description": null,
+        "concept_id": 6378110,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123983,
+        "name": "#.Name",
+        "code": null,
+        "description": null,
+        "concept_id": 6378153,
+        "concept_reference_name": "550910",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123992,
+        "name": "#.Außen",
+        "code": null,
+        "description": null,
+        "concept_id": 6378152,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123995,
+        "name": "IfcBuildingElementProxy",
+        "code": null,
+        "description": null,
+        "concept_id": 6378120,
+        "concept_reference_name": "549453",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124000,
+        "name": "Qto_BeamBaseQuantities.CrossSectionArea",
+        "code": null,
+        "description": null,
+        "concept_id": 6378305,
+        "concept_reference_name": "6152497",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124002,
+        "name": "BaseQuantities",
+        "code": null,
+        "description": null,
+        "concept_id": 6378111,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124433,
+        "name": "IfcWall.##.##.Pset_WallCommon.LoadBearing:True ",
+        "code": null,
+        "description": null,
+        "concept_id": 6378249,
+        "concept_reference_name": "549471",
+        "predefinedtype": null,
+        "user_defined_type": "",
+        "extended_settings": {
+            "property": [
+                {
+                    "property_group_id": 6378108,
+                    "property_id": 6378138,
+                    "property_name": "Tragendes Bauteil",
+                    "property_value": "True"
+                }
+            ]
+        },
+        "created_at": "2021-09-29T11:17:55.958+02:00",
+        "updated_at": "2021-12-17T09:51:49.229+01:00"
+    },
+    {
+        "id": 3124434,
+        "name": "IfcWall.##.##.Pset_WallCommon.IsExternal:False Pset_WallCommon.LoadBearing:False ",
+        "code": null,
+        "description": null,
+        "concept_id": 6378252,
+        "concept_reference_name": "549471",
+        "predefinedtype": null,
+        "user_defined_type": "",
+        "extended_settings": {
+            "property": [
+                {
+                    "property_group_id": 6378108,
+                    "property_id": 6378137,
+                    "property_name": "Außenbauteil",
+                    "property_value": "False"
+                },
+                {
+                    "property_group_id": 6378108,
+                    "property_id": 6378138,
+                    "property_name": "Tragendes Bauteil",
+                    "property_value": "False"
+                }
+            ]
+        },
+        "created_at": "2021-09-29T11:18:49.156+02:00",
+        "updated_at": "2021-09-29T15:11:11.896+02:00"
+    },
+    {
+        "id": 3124436,
+        "name": "IfcSlab.##.##.Pset_SlabCommon.IsExternal:False ",
+        "code": null,
+        "description": null,
+        "concept_id": 6378251,
+        "concept_reference_name": "549468",
+        "predefinedtype": null,
+        "user_defined_type": "",
+        "extended_settings": {
+            "property": [
+                {
+                    "property_group_id": 6378108,
+                    "property_id": 6378137,
+                    "property_name": "Außenbauteil",
+                    "property_value": "False"
+                }
+            ]
+        },
+        "created_at": "2021-09-29T11:54:20.482+02:00",
+        "updated_at": "2021-09-30T08:17:49.798+02:00"
+    },
+    {
+        "id": 3124004,
+        "name": "Pset_SlabCommon",
+        "code": null,
+        "description": null,
+        "concept_id": 6378268,
+        "concept_reference_name": "555311",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124007,
+        "name": "#.Testwert",
+        "code": null,
+        "description": null,
+        "concept_id": 6378154,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3124009,
+        "name": "#.CKBauteiltyp",
+        "code": null,
+        "description": null,
+        "concept_id": 6378144,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123908,
+        "name": "IfcBuildingElementProxy.##.##.CKs Eigenschaften.CKBauteiltyp:\"ABC\" ",
+        "code": null,
+        "description": null,
+        "concept_id": 6378101,
+        "concept_reference_name": "549453",
+        "predefinedtype": null,
+        "user_defined_type": "",
+        "extended_settings": {
+            "property": [
+                {
+                    "property_group_id": 6378110,
+                    "property_id": 6378144,
+                    "property_name": "CKBauteiltyp",
+                    "property_value": "\"ABC\""
+                }
+            ]
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123910,
+        "name": "IfcSlab",
+        "code": null,
+        "description": null,
+        "concept_id": 6378103,
+        "concept_reference_name": "549468",
+        "predefinedtype": null,
+        "user_defined_type": "",
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123913,
+        "name": "IfcHeatExchanger.PredefinedType.USERDEFINED[Kessel]",
+        "code": null,
+        "description": null,
+        "concept_id": 6378107,
+        "concept_reference_name": "549499",
+        "predefinedtype": "550153",
+        "user_defined_type": "Kessel",
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123914,
+        "name": "IfcHeatExchanger.PredefinedType.PLATE",
+        "code": null,
+        "description": null,
+        "concept_id": 6378106,
+        "concept_reference_name": "549499",
+        "predefinedtype": "550151",
+        "user_defined_type": "",
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123918,
+        "name": "#.Tragend",
+        "code": null,
+        "description": null,
+        "concept_id": 6378151,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123922,
+        "name": "#.Test Bauteil",
+        "code": null,
+        "description": null,
+        "concept_id": 6378146,
+        "concept_reference_name": null,
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123925,
+        "name": "IfcBeam",
+        "code": null,
+        "description": null,
+        "concept_id": 6378109,
+        "concept_reference_name": "549452",
+        "predefinedtype": null,
+        "user_defined_type": "",
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123945,
+        "name": "*.Reference",
+        "code": null,
+        "description": null,
+        "concept_id": 6378139,
+        "concept_reference_name": "555872",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123946,
+        "name": "*.FireRating",
+        "code": null,
+        "description": null,
+        "concept_id": 6378140,
+        "concept_reference_name": "4477473",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123947,
+        "name": "*.Span",
+        "code": null,
+        "description": null,
+        "concept_id": 6378141,
+        "concept_reference_name": "551352",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123948,
+        "name": "*.ThermalTransmittance",
+        "code": null,
+        "description": null,
+        "concept_id": 6378142,
+        "concept_reference_name": "553984",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123958,
+        "name": "IfcElement Attributes.Name",
+        "code": null,
+        "description": null,
+        "concept_id": 6378143,
+        "concept_reference_name": "6152925",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123960,
+        "name": "IfcElement Attributes.Description",
+        "code": null,
+        "description": null,
+        "concept_id": 6378145,
+        "concept_reference_name": "6152924",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123970,
+        "name": "Qto_SlabBaseQuantities.Width",
+        "code": null,
+        "description": null,
+        "concept_id": 6378147,
+        "concept_reference_name": "6152831",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 3123971,
+        "name": "Qto_SlabBaseQuantities.NetArea",
+        "code": null,
+        "description": null,
+        "concept_id": 6378148,
+        "concept_reference_name": "6152836",
+        "predefinedtype": null,
+        "user_defined_type": null,
+        "extended_settings": {
+            "property": null
+        },
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    }
+]
