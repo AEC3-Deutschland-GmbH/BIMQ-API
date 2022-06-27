@@ -1,0 +1,58 @@
+[
+    {
+        "id": 6281,
+        "name": "Vorplanung",
+        "description": "▪ Leistungsphase 2 \"Vorplanung\" nach HOAI 2013.",
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 6282,
+        "name": "Entwurfsplanung",
+        "description": "▪ Leistungsphase 3 \"Entwurfsplanung\", \n▪ Leistungsphase 4 \"Genehmigungsplanung\" nach HOAI 2013.",
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 6283,
+        "name": "Ausführungsplanung",
+        "description": "▪ Leistungsphase 5 \"Ausführungsplanung\", \n▪ Leistungsphase 6 \"Vorbereitung der Vorgabe\",\n▪ Leistungsphase 7 \"Mitwirkung bei der Vergabe\" nach HOAI 2013.",
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 6284,
+        "name": "Objektüberwachung",
+        "description": "▪ Leistungsphase 8 \"Objektüberwachung\" nach HOAI 2013.",
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 6285,
+        "name": "Objektbetreuung",
+        "description": "▪ Leistungsphase 9 \"Objektbetreuung\" nach HOAI 2013.",
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 6286,
+        "name": "Entwurfsplanung",
+        "description": "▪ Leistungsphase 3 \"Entwurfsplanung\"\n▪ Leistungsphase 4 \"Genehmigungsplanung\" nach HOAI",
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 6287,
+        "name": "Ausführungsplanung / Bauausführung",
+        "description": "▪ Leistungsphase 5 \"Ausführungsplanung\"\n▪ Leistungsphase 6 \"Vorbereitung der Vergabe\"\n▪ Leistungsphase 7 \"Mitwirkung bei der Vergabe\"\n▪ Leistungsphase 8 \"Objektüberwachung\" nach HOAI",
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 6288,
+        "name": "Projektübergabe, Abschluss",
+        "description": "Leistungsphase 9 \"Objektbetreuung\" nach HOAI",
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    }
+]

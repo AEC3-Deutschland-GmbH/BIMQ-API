@@ -1,0 +1,74 @@
+[
+    {
+        "id": 8129,
+        "target": "IFC 4 Add2",
+        "edition": "IFC4",
+        "type": "DataStructure",
+        "link": "http://www.buildingsmart-tech.org/ifc/IFC4/Add2/html/",
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 8130,
+        "target": "IFC 2X3 TC1",
+        "edition": "IFC2X3",
+        "type": "DataStructure",
+        "link": "http://www.buildingsmart-tech.org/ifc/IFC2x3/TC1/html/index.htm",
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 8131,
+        "target": "Revit",
+        "edition": "DEFAULT",
+        "type": "DataStructure",
+        "link": null,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 8132,
+        "target": "ArchiCAD 23",
+        "edition": "ARCHICAD23",
+        "type": "DataStructure",
+        "link": null,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 8133,
+        "target": "Allplan",
+        "edition": "DEFAULT",
+        "type": "DataStructure",
+        "link": null,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 8134,
+        "target": "ArchiCAD 24",
+        "edition": "ARCHICAD24",
+        "type": "DataStructure",
+        "link": null,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 8135,
+        "target": "abc",
+        "edition": "1",
+        "type": "Classification",
+        "link": null,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    },
+    {
+        "id": 8136,
+        "target": "ttt",
+        "edition": "zzz",
+        "type": "Language",
+        "link": null,
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-09-29T10:38:44.394+02:00"
+    }
+]
