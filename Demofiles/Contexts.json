@@ -1,0 +1,13 @@
+[{
+        "id": 1097,
+        "name": "Nicolas Testprojekt Solibri",
+        "description": "",
+        "release": "",
+        "guide_language": "de",
+        "status": "draft",
+        "public": false,
+        "picklist_type": "",
+        "created_at": "2021-09-29T10:38:44.394+02:00",
+        "updated_at": "2021-12-14T13:18:13.003+01:00",
+        "url": "http://localhost:3000/de/contexts/1097.json"
+    }]
