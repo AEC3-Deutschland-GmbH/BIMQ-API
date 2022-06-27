@@ -1,0 +1,193 @@
+[
+    {
+        "id": 6378257,
+        "name": "Wand",
+        "code": "1-01",
+        "ifcType": "IfcWall",
+        "classificationByPropertyDefinitions": [],
+        "Attributes": [],
+        "propertySetSpecifications": [
+            {
+                "id": 6378275,
+                "name": "Pset_WallCommon",
+                "code": "01",
+                "ifcName": "Pset_WallCommon",
+                "properties": [
+                    {
+                        "id": 6378359,
+                        "name": "Außenbauteil",
+                        "code": null,
+                        "ifcName": "IsExternal",
+                        "unit": "Wahr/Falsch",
+                        "unit_reference": "Datatypes.IfcBoolean",
+                        "values": []
+                    },
+                    {
+                        "id": 6378361,
+                        "name": "Feuerwiderstandsklasse",
+                        "code": null,
+                        "ifcName": "FireRating",
+                        "unit": "Kennzeichen",
+                        "unit_reference": "Datatypes.IfcLabel",
+                        "values": [
+                            null,
+                            null,
+                            null
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6378249,
+        "name": "Aussenwand tragend",
+        "code": "2-01",
+        "ifcType": "IfcWall",
+        "ifcPredefinedType": "USERDEFINED",
+        "ifcObjectType": "ABC",
+        "classificationByPropertyDefinitions": [
+            {
+                "psetName": "Pset_WallCommon",
+                "pName": "LoadBearing",
+                "value": "TRUE"
+            }
+        ],
+        "Attributes": [
+            {
+                "id": 6380086,
+                "name": "Name",
+                "code": null,
+                "ifcName": "Name",
+                "values": []
+            }
+        ],
+        "propertySetSpecifications": [
+            {
+                "id": 6378267,
+                "name": "Pset_WallCommon",
+                "code": "01",
+                "ifcName": "Pset_WallCommon",
+                "properties": [
+                    {
+                        "id": 6378318,
+                        "name": "Außenbauteil",
+                        "code": null,
+                        "ifcName": "IsExternal",
+                        "unit": "Wahr/Falsch",
+                        "unit_reference": "Datatypes.IfcBoolean",
+                        "values": []
+                    },
+                    {
+                        "id": 6378320,
+                        "name": "Feuerwiderstandsklasse",
+                        "code": null,
+                        "ifcName": "FireRating",
+                        "unit": "Kennzeichen",
+                        "unit_reference": "Datatypes.IfcLabel",
+                        "values": [
+                            null,
+                            null,
+                            null
+                        ]
+                    },
+                    {
+                        "id": 6378322,
+                        "name": "Wärmedurchgangskoeffizient  (U-Wert)",
+                        "code": null,
+                        "ifcName": "ThermalTransmittance",
+                        "unit": "Wärmedurchgängigkeit.Watts/m2 Kelvin",
+                        "unit_reference": "Measurements.IfcThermalTransmittanceMeasure.Watts/m2 Kelvin",
+                        "values": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6378251,
+        "name": "Geschoßdecke",
+        "code": "2-04",
+        "ifcType": "IfcSlab",
+        "classificationByPropertyDefinitions": [
+            {
+                "psetName": "Pset_SlabCommon",
+                "pName": "IsExternal",
+                "value": "FALSE"
+            }
+        ],
+        "Attributes": [],
+        "propertySetSpecifications": [
+            {
+                "id": 6378264,
+                "name": "Pset_SlabCommon",
+                "code": null,
+                "ifcName": "Pset_SlabCommon",
+                "properties": [
+                    {
+                        "id": 6378323,
+                        "name": "Außenbauteil",
+                        "code": null,
+                        "ifcName": "IsExternal",
+                        "unit": "Wahr/Falsch",
+                        "unit_reference": "Datatypes.IfcBoolean",
+                        "values": []
+                    },
+                    {
+                        "id": 6378324,
+                        "name": "Bauteiltyp",
+                        "code": null,
+                        "ifcName": "Reference",
+                        "unit": "Identifizierungszeichen",
+                        "unit_reference": "Datatypes.IfcIdentifier",
+                        "values": []
+                    },
+                    {
+                        "id": 6378325,
+                        "name": "Tragendes Bauteil",
+                        "code": null,
+                        "ifcName": "LoadBearing",
+                        "unit": "Wahr/Falsch",
+                        "unit_reference": "Datatypes.IfcBoolean",
+                        "values": []
+                    },
+                    {
+                        "id": 6378326,
+                        "name": "Wärmedurchgangskoeffizient  (U-Wert)",
+                        "code": null,
+                        "ifcName": "ThermalTransmittance",
+                        "unit": "Wärmedurchgängigkeit.Watts/m2 Kelvin",
+                        "unit_reference": "Measurements.IfcThermalTransmittanceMeasure.Watts/m2 Kelvin",
+                        "values": []
+                    }
+                ]
+            },
+            {
+                "id": 6378265,
+                "name": "ePset_Kopfdaten",
+                "code": null,
+                "ifcName": "ePset_Kopfdaten",
+                "properties": [
+                    {
+                        "id": 6378300,
+                        "name": "CKBauteiltyp",
+                        "code": null,
+                        "ifcName": "CKBauteiltyp",
+                        "unit": "Kennzeichen",
+                        "unit_reference": "Datatypes.IfcLabel",
+                        "values": []
+                    },
+                    {
+                        "id": 6378343,
+                        "name": "Testwert",
+                        "code": null,
+                        "ifcName": "Testwert",
+                        "unit": "Länge (nicht-negativ, >=0).m",
+                        "unit_reference": "Measurements.IfcNonNegativeLengthMeasure.METRE",
+                        "values": []
+                    }
+                ]
+            }
+        ]
+    }
+]
