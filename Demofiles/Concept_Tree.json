@@ -1,0 +1,1924 @@
+{
+    "project": "Nicolas Testprojekt Solibri",
+    "project_id": 1097,
+    "project_overview": [
+        {
+            "id": 6378245,
+            "name": "TWP Modell",
+            "description": null,
+            "datatype": "Model",
+            "parent_id": null,
+            "template_id": 6378114,
+            "updated_at": "2021-09-29T10:38:44.394+02:00"
+        },
+        {
+            "id": 6378244,
+            "name": "TGA Modell",
+            "description": null,
+            "datatype": "Model",
+            "parent_id": null,
+            "template_id": 6378113,
+            "updated_at": "2021-09-29T10:38:44.394+02:00",
+            "child_concept": [
+                {
+                    "id": 6378253,
+                    "name": "Wärmetauscher",
+                    "description": null,
+                    "datatype": "Type",
+                    "parent_id": 6378244,
+                    "template_id": 6378106,
+                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                    "map_item": "IfcHeatExchanger.PredefinedType.PLATE",
+                    "map_item_id": 3123914,
+                    "child_concept": [
+                        {
+                            "id": 6378265,
+                            "name": "CKs Eigenschaften (Konzeptname!)",
+                            "description": null,
+                            "datatype": "Group",
+                            "parent_id": 6378253,
+                            "template_id": 6378110,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "map_item": "CKs Eigenschaften",
+                            "map_item_id": 3123981,
+                            "child_concept": [
+                                {
+                                    "id": 6378310,
+                                    "name": "AttributName",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378265,
+                                    "template_id": 6378143,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "IfcElement Attributes.Name",
+                                    "map_item_id": 3123958
+                                },
+                                {
+                                    "id": 6378311,
+                                    "name": "CKBauteiltyp",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378265,
+                                    "template_id": 6378144,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "#.CKBauteiltyp",
+                                    "map_item_id": 3124009
+                                },
+                                {
+                                    "id": 6378312,
+                                    "name": "CKsBeschreibung",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378265,
+                                    "template_id": 6378145,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "IfcElement Attributes.Description",
+                                    "map_item_id": 3123960
+                                },
+                                {
+                                    "id": 6378313,
+                                    "name": "Test Bauteil",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378265,
+                                    "template_id": 6378146,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "#.Test Bauteil",
+                                    "map_item_id": 3123922
+                                },
+                                {
+                                    "id": 6378344,
+                                    "name": "Raumname",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378265,
+                                    "template_id": 6378149,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "IfcSpatialElement Attributes.LongName",
+                                    "map_item_id": 3123976
+                                },
+                                {
+                                    "id": 6378345,
+                                    "name": "Raumnummer",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378265,
+                                    "template_id": 6378150,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "IfcElement Attributes.Name",
+                                    "map_item_id": 3123977
+                                },
+                                {
+                                    "id": 6378346,
+                                    "name": "Testwert",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378265,
+                                    "template_id": 6378154,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "#.Testwert",
+                                    "map_item_id": 3124007
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 6378254,
+                    "name": "WärmetauscherKessel",
+                    "description": null,
+                    "datatype": "Type",
+                    "parent_id": 6378244,
+                    "template_id": 6378107,
+                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                    "map_item": "IfcHeatExchanger.PredefinedType.USERDEFINED[Kessel]",
+                    "map_item_id": 3123913,
+                    "child_concept": [
+                        {
+                            "id": 6378266,
+                            "name": "CKs Eigenschaften (Konzeptname!)",
+                            "description": null,
+                            "datatype": "Group",
+                            "parent_id": 6378254,
+                            "template_id": 6378110,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "map_item": "CKs Eigenschaften",
+                            "map_item_id": 3123981,
+                            "child_concept": [
+                                {
+                                    "id": 6378314,
+                                    "name": "AttributName",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378266,
+                                    "template_id": 6378143,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "IfcElement Attributes.Name",
+                                    "map_item_id": 3123958
+                                },
+                                {
+                                    "id": 6378316,
+                                    "name": "CKsBeschreibung",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378266,
+                                    "template_id": 6378145,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "IfcElement Attributes.Description",
+                                    "map_item_id": 3123960
+                                },
+                                {
+                                    "id": 6378317,
+                                    "name": "Test Bauteil",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378266,
+                                    "template_id": 6378146,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "#.Test Bauteil",
+                                    "map_item_id": 3123922
+                                },
+                                {
+                                    "id": 6378315,
+                                    "name": "CKBauteiltyp",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378266,
+                                    "template_id": 6378144,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "#.CKBauteiltyp",
+                                    "map_item_id": 3124009
+                                },
+                                {
+                                    "id": 6378339,
+                                    "name": "Raumname",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378266,
+                                    "template_id": 6378149,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "IfcSpatialElement Attributes.LongName",
+                                    "map_item_id": 3123976
+                                },
+                                {
+                                    "id": 6378340,
+                                    "name": "Raumnummer",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378266,
+                                    "template_id": 6378150,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "IfcElement Attributes.Name",
+                                    "map_item_id": 3123977
+                                },
+                                {
+                                    "id": 6378341,
+                                    "name": "Testwert",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378266,
+                                    "template_id": 6378154,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "#.Testwert",
+                                    "map_item_id": 3124007
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6378243,
+            "name": "CKs Modell",
+            "description": null,
+            "datatype": "Model",
+            "parent_id": null,
+            "template_id": 6378100,
+            "updated_at": "2021-09-29T10:38:44.394+02:00",
+            "child_concept": [
+                {
+                    "id": 6378249,
+                    "name": "Aussenwand tragend",
+                    "description": null,
+                    "datatype": "Type",
+                    "parent_id": 6378243,
+                    "template_id": 6378102,
+                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                    "map_item": "IfcWall.##.##.Pset_WallCommon.IsExternal:True Pset_WallCommon.LoadBearing:True ",
+                    "map_item_id": 3123896,
+                    "child_concept": [
+                        {
+                            "id": 6378267,
+                            "name": "gemeinsame Eigenschaften",
+                            "description": null,
+                            "datatype": "Group",
+                            "parent_id": 6378249,
+                            "template_id": 6378108,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "child_concept": [
+                                {
+                                    "id": 6378318,
+                                    "name": "Außenbauteil",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378267,
+                                    "template_id": 6378137,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.IsExternal",
+                                    "map_item_id": 3123893
+                                },
+                                {
+                                    "id": 6378319,
+                                    "name": "Bauteiltyp",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378267,
+                                    "template_id": 6378139,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.Reference",
+                                    "map_item_id": 3123945
+                                },
+                                {
+                                    "id": 6378320,
+                                    "name": "Feuerwiderstandsklasse",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378267,
+                                    "template_id": 6378140,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.FireRating",
+                                    "map_item_id": 3123946,
+                                    "child_concept": [
+                                        {
+                                            "id": 6378405,
+                                            "name": "F30",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378320,
+                                            "template_id": 6378211,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378406,
+                                            "name": "F60",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378320,
+                                            "template_id": 6378212,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378407,
+                                            "name": "F90",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378320,
+                                            "template_id": 6378213,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 6378321,
+                                    "name": "Tragendes Bauteil",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378267,
+                                    "template_id": 6378138,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.LoadBearing",
+                                    "map_item_id": 3123900
+                                },
+                                {
+                                    "id": 6380086,
+                                    "name": "Name",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378267,
+                                    "template_id": 6378153,
+                                    "updated_at": "2021-10-15T09:35:52.127+02:00",
+                                    "map_item": "#.Name",
+                                    "map_item_id": 3123983
+                                },
+                                {
+                                    "id": 6378322,
+                                    "name": "Wärmedurchgangskoeffizient  (U-Wert)",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378267,
+                                    "template_id": 6378142,
+                                    "updated_at": "2022-06-21T09:46:33.193+02:00",
+                                    "map_item": "*.ThermalTransmittance",
+                                    "map_item_id": 3123948
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 6378250,
+                    "name": "Balken / Unterzug",
+                    "description": null,
+                    "datatype": "Type",
+                    "parent_id": 6378243,
+                    "template_id": 6378109,
+                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                    "map_item": "IfcBeam",
+                    "map_item_id": 3123925,
+                    "child_concept": [
+                        {
+                            "id": 6378259,
+                            "name": "gemeinsame Eigenschaften",
+                            "description": null,
+                            "datatype": "Group",
+                            "parent_id": 6378250,
+                            "template_id": 6378108,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "child_concept": [
+                                {
+                                    "id": 6378285,
+                                    "name": "Außenbauteil",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378259,
+                                    "template_id": 6378137,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.IsExternal",
+                                    "map_item_id": 3123893
+                                },
+                                {
+                                    "id": 6378286,
+                                    "name": "Bauteiltyp",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378259,
+                                    "template_id": 6378139,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.Reference",
+                                    "map_item_id": 3123945
+                                },
+                                {
+                                    "id": 6378287,
+                                    "name": "Feuerwiderstandsklasse",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378259,
+                                    "template_id": 6378140,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.FireRating",
+                                    "map_item_id": 3123946,
+                                    "child_concept": [
+                                        {
+                                            "id": 6378402,
+                                            "name": "F30",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378287,
+                                            "template_id": 6378211,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378403,
+                                            "name": "F60",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378287,
+                                            "template_id": 6378212,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378404,
+                                            "name": "F90",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378287,
+                                            "template_id": 6378213,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378414,
+                                            "name": "70",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378287,
+                                            "template_id": 6378215,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 6378288,
+                                    "name": "Spannweite",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378259,
+                                    "template_id": 6378141,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.Span",
+                                    "map_item_id": 3123947
+                                },
+                                {
+                                    "id": 6378289,
+                                    "name": "Tragendes Bauteil",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378259,
+                                    "template_id": 6378138,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.LoadBearing",
+                                    "map_item_id": 3123900
+                                },
+                                {
+                                    "id": 6378290,
+                                    "name": "Wärmedurchgangskoeffizient  (U-Wert)",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378259,
+                                    "template_id": 6378142,
+                                    "updated_at": "2022-06-21T09:46:33.454+02:00",
+                                    "map_item": "*.ThermalTransmittance",
+                                    "map_item_id": 3123948
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6378263,
+                            "name": "CKs Mengen Balken",
+                            "description": null,
+                            "datatype": "Group",
+                            "parent_id": 6378250,
+                            "template_id": 6378111,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "map_item": "BaseQuantities",
+                            "map_item_id": 3124002,
+                            "child_concept": [
+                                {
+                                    "id": 6378304,
+                                    "name": "Breite",
+                                    "description": "Breite",
+                                    "datatype": "Property",
+                                    "parent_id": 6378263,
+                                    "template_id": 6378147,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "BaseQuantities.Width",
+                                    "map_item_id": 3124051
+                                },
+                                {
+                                    "id": 6378305,
+                                    "name": "Fläche",
+                                    "description": "Fläche",
+                                    "datatype": "Property",
+                                    "parent_id": 6378263,
+                                    "template_id": 6378148,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "Qto_SlabBaseQuantities.NetArea",
+                                    "map_item_id": 3123971
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6378272,
+                            "name": "TEST Properties",
+                            "description": null,
+                            "datatype": "Group",
+                            "parent_id": 6378250,
+                            "template_id": 6378095,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "child_concept": [
+                                {
+                                    "id": 6378355,
+                                    "name": "BreiteHöhe",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378272,
+                                    "template_id": 6378121,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "#.BreiteHöhe",
+                                    "map_item_id": 3124169
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 6378251,
+                    "name": "Geschoßdecke",
+                    "description": null,
+                    "datatype": "Type",
+                    "parent_id": 6378243,
+                    "template_id": 6378103,
+                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                    "map_item": "IfcSlab.##.##.Pset_SlabCommon.IsExternal:False ",
+                    "map_item_id": 3124436,
+                    "child_concept": [
+                        {
+                            "id": 6378262,
+                            "name": "CKs Eigenschaften (Konzeptname!)",
+                            "description": null,
+                            "datatype": "Group",
+                            "parent_id": 6378251,
+                            "template_id": 6378110,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "map_item": "CKs Eigenschaften",
+                            "map_item_id": 3123981,
+                            "child_concept": [
+                                {
+                                    "id": 6378299,
+                                    "name": "AttributName",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378262,
+                                    "template_id": 6378143,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "IfcElement Attributes.Name",
+                                    "map_item_id": 3123958
+                                },
+                                {
+                                    "id": 6378300,
+                                    "name": "CKBauteiltyp",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378262,
+                                    "template_id": 6378144,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "#.CKBauteiltyp",
+                                    "map_item_id": 3124009
+                                },
+                                {
+                                    "id": 6378301,
+                                    "name": "CKsBeschreibung",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378262,
+                                    "template_id": 6378145,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "IfcElement Attributes.Description",
+                                    "map_item_id": 3123960
+                                },
+                                {
+                                    "id": 6378302,
+                                    "name": "Raumname",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378262,
+                                    "template_id": 6378149,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "IfcSpatialElement Attributes.LongName",
+                                    "map_item_id": 3123976
+                                },
+                                {
+                                    "id": 6378303,
+                                    "name": "Test Bauteil",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378262,
+                                    "template_id": 6378146,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "#.Test Bauteil",
+                                    "map_item_id": 3123922
+                                },
+                                {
+                                    "id": 6378342,
+                                    "name": "Raumnummer",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378262,
+                                    "template_id": 6378150,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "IfcElement Attributes.Name",
+                                    "map_item_id": 3123977
+                                },
+                                {
+                                    "id": 6378343,
+                                    "name": "Testwert",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378262,
+                                    "template_id": 6378154,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "#.Testwert",
+                                    "map_item_id": 3124007
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6378268,
+                            "name": "gemeinsame Eigenschaften",
+                            "description": null,
+                            "datatype": "Group",
+                            "parent_id": 6378251,
+                            "template_id": 6378108,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "map_item": "Pset_SlabCommon",
+                            "map_item_id": 3124004,
+                            "child_concept": [
+                                {
+                                    "id": 6378323,
+                                    "name": "Außenbauteil",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378268,
+                                    "template_id": 6378137,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.IsExternal",
+                                    "map_item_id": 3123893
+                                },
+                                {
+                                    "id": 6378324,
+                                    "name": "Bauteiltyp",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378268,
+                                    "template_id": 6378139,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.Reference",
+                                    "map_item_id": 3123945
+                                },
+                                {
+                                    "id": 6378325,
+                                    "name": "Tragendes Bauteil",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378268,
+                                    "template_id": 6378138,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.LoadBearing",
+                                    "map_item_id": 3123900
+                                },
+                                {
+                                    "id": 6378326,
+                                    "name": "Wärmedurchgangskoeffizient  (U-Wert)",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378268,
+                                    "template_id": 6378142,
+                                    "updated_at": "2022-06-21T09:46:33.467+02:00",
+                                    "map_item": "*.ThermalTransmittance",
+                                    "map_item_id": 3123948
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 6378252,
+                    "name": "Innenwand nichttragend",
+                    "description": null,
+                    "datatype": "Type",
+                    "parent_id": 6378243,
+                    "template_id": 6378104,
+                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                    "map_item": "IfcWall.##.##.Pset_WallCommon.IsExternal:False Pset_WallCommon.LoadBearing:False ",
+                    "map_item_id": 3124434,
+                    "child_concept": [
+                        {
+                            "id": 6378264,
+                            "name": "CKs Eigenschaften (Konzeptname!)",
+                            "description": null,
+                            "datatype": "Group",
+                            "parent_id": 6378252,
+                            "template_id": 6378110,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "map_item": "CKs Eigenschaften",
+                            "map_item_id": 3123981,
+                            "child_concept": [
+                                {
+                                    "id": 6378306,
+                                    "name": "AttributName",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378264,
+                                    "template_id": 6378143,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "IfcElement Attributes.Name",
+                                    "map_item_id": 3123958
+                                },
+                                {
+                                    "id": 6378307,
+                                    "name": "CKBauteiltyp",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378264,
+                                    "template_id": 6378144,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "#.CKBauteiltyp",
+                                    "map_item_id": 3124009
+                                },
+                                {
+                                    "id": 6378308,
+                                    "name": "CKsBeschreibung",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378264,
+                                    "template_id": 6378145,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "IfcElement Attributes.Description",
+                                    "map_item_id": 3123960
+                                },
+                                {
+                                    "id": 6378309,
+                                    "name": "Test Bauteil",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378264,
+                                    "template_id": 6378146,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "#.Test Bauteil",
+                                    "map_item_id": 3123922
+                                },
+                                {
+                                    "id": 6378336,
+                                    "name": "Raumname",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378264,
+                                    "template_id": 6378149,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "IfcSpatialElement Attributes.LongName",
+                                    "map_item_id": 3123976
+                                },
+                                {
+                                    "id": 6378337,
+                                    "name": "Raumnummer",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378264,
+                                    "template_id": 6378150,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "IfcElement Attributes.Name",
+                                    "map_item_id": 3123977
+                                },
+                                {
+                                    "id": 6378338,
+                                    "name": "Testwert",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378264,
+                                    "template_id": 6378154,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "#.Testwert",
+                                    "map_item_id": 3124007
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6378269,
+                            "name": "gemeinsame Eigenschaften",
+                            "description": null,
+                            "datatype": "Group",
+                            "parent_id": 6378252,
+                            "template_id": 6378108,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "child_concept": [
+                                {
+                                    "id": 6378327,
+                                    "name": "Außenbauteil",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378269,
+                                    "template_id": 6378137,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.IsExternal",
+                                    "map_item_id": 3123893
+                                },
+                                {
+                                    "id": 6378328,
+                                    "name": "Bauteiltyp",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378269,
+                                    "template_id": 6378139,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.Reference",
+                                    "map_item_id": 3123945
+                                },
+                                {
+                                    "id": 6378329,
+                                    "name": "Feuerwiderstandsklasse",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378269,
+                                    "template_id": 6378140,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.FireRating",
+                                    "map_item_id": 3123946,
+                                    "child_concept": [
+                                        {
+                                            "id": 6378408,
+                                            "name": "F30",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378329,
+                                            "template_id": 6378211,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378409,
+                                            "name": "F60",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378329,
+                                            "template_id": 6378212,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378410,
+                                            "name": "F90",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378329,
+                                            "template_id": 6378213,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 6378330,
+                                    "name": "Tragendes Bauteil",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378269,
+                                    "template_id": 6378138,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.LoadBearing",
+                                    "map_item_id": 3123900
+                                },
+                                {
+                                    "id": 6378331,
+                                    "name": "Wärmedurchgangskoeffizient  (U-Wert)",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378269,
+                                    "template_id": 6378142,
+                                    "updated_at": "2022-06-21T09:46:33.459+02:00",
+                                    "map_item": "*.ThermalTransmittance",
+                                    "map_item_id": 3123948
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6378273,
+                            "name": "TEST Properties",
+                            "description": null,
+                            "datatype": "Group",
+                            "parent_id": 6378252,
+                            "template_id": 6378095,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "child_concept": [
+                                {
+                                    "id": 6378356,
+                                    "name": "AttTest",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378273,
+                                    "template_id": 6378122,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "#.AttTest",
+                                    "map_item_id": 3124175
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 6378256,
+                    "name": "Decke",
+                    "description": null,
+                    "datatype": "Group",
+                    "parent_id": 6378243,
+                    "template_id": 6378123,
+                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                    "child_concept": [
+                        {
+                            "id": 6378274,
+                            "name": "Tragende_Decken",
+                            "description": null,
+                            "datatype": "Group",
+                            "parent_id": 6378256,
+                            "template_id": 6378163,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "map_item": "Tragende_Decken",
+                            "map_item_id": 3124122,
+                            "child_concept": [
+                                {
+                                    "id": 6378357,
+                                    "name": "Stahlbetondecke",
+                                    "description": null,
+                                    "datatype": "Type",
+                                    "parent_id": 6378274,
+                                    "template_id": 6378216,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "IfcBuildingElementProxy",
+                                    "map_item_id": 3124123,
+                                    "child_concept": [
+                                        {
+                                            "id": 6378415,
+                                            "name": "Stahlbeton",
+                                            "description": null,
+                                            "datatype": "Group",
+                                            "parent_id": 6378357,
+                                            "template_id": 6378124,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                            "map_item": "Stahlbeton",
+                                            "map_item_id": 3124133,
+                                            "child_concept": [
+                                                {
+                                                    "id": 6378446,
+                                                    "name": "Betonkurzbezeichnung_(B1_B12)",
+                                                    "description": null,
+                                                    "datatype": "Property",
+                                                    "parent_id": 6378415,
+                                                    "template_id": 6378164,
+                                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                                    "map_item": "#.Betonkurzbezeichnung_(B1_B12)",
+                                                    "map_item_id": 3124141
+                                                },
+                                                {
+                                                    "id": 6378447,
+                                                    "name": "Bewehrungsgrad_kgm3",
+                                                    "description": null,
+                                                    "datatype": "Property",
+                                                    "parent_id": 6378415,
+                                                    "template_id": 6378165,
+                                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                                    "map_item": "#.Bewehrungsgrad_kgm3",
+                                                    "map_item_id": 3124146
+                                                },
+                                                {
+                                                    "id": 6378448,
+                                                    "name": "Druckfestigkeitsklasse_Beton",
+                                                    "description": null,
+                                                    "datatype": "Property",
+                                                    "parent_id": 6378415,
+                                                    "template_id": 6378166,
+                                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                                    "map_item": "#.Druckfestigkeitsklasse_Beton",
+                                                    "map_item_id": 3124151
+                                                },
+                                                {
+                                                    "id": 6378449,
+                                                    "name": "Expositionsklasse",
+                                                    "description": null,
+                                                    "datatype": "Property",
+                                                    "parent_id": 6378415,
+                                                    "template_id": 6378167,
+                                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                                    "map_item": "Pset_ConcreteElementGeneral.ExposureClass",
+                                                    "map_item_id": 3124156
+                                                },
+                                                {
+                                                    "id": 6378450,
+                                                    "name": "Funktion_Stahlbetonarbeiten",
+                                                    "description": null,
+                                                    "datatype": "Property",
+                                                    "parent_id": 6378415,
+                                                    "template_id": 6378168,
+                                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                                    "map_item": "#.Funktion_Stahlbetonarbeiten",
+                                                    "map_item_id": 3124161
+                                                },
+                                                {
+                                                    "id": 6378451,
+                                                    "name": "Unterstellungshoehe_STB",
+                                                    "description": null,
+                                                    "datatype": "Property",
+                                                    "parent_id": 6378415,
+                                                    "template_id": 6378169,
+                                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                                    "map_item": "#.Unterstellungshoehe_STB",
+                                                    "map_item_id": 3124166
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 6378416,
+                                            "name": "Stahlbeton_Halbfertigteil_Fertigteil",
+                                            "description": null,
+                                            "datatype": "Group",
+                                            "parent_id": 6378357,
+                                            "template_id": 6378125,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                            "child_concept": [
+                                                {
+                                                    "id": 6378452,
+                                                    "name": "Lichte_Weite_Elementdecke",
+                                                    "description": null,
+                                                    "datatype": "Property",
+                                                    "parent_id": 6378416,
+                                                    "template_id": 6378170,
+                                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                                    "map_item": "#.Lichte_Weite_Elementdecke",
+                                                    "map_item_id": 3124181
+                                                },
+                                                {
+                                                    "id": 6378453,
+                                                    "name": "zulaessige_Auflast_Elementdecke",
+                                                    "description": null,
+                                                    "datatype": "Property",
+                                                    "parent_id": 6378416,
+                                                    "template_id": 6378171,
+                                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                                    "map_item": "#.zulaessige_Auflast_Elementdecke",
+                                                    "map_item_id": 3124186
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 6378417,
+                                            "name": "TEST Properties",
+                                            "description": null,
+                                            "datatype": "Group",
+                                            "parent_id": 6378357,
+                                            "template_id": 6378095,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                            "child_concept": [
+                                                {
+                                                    "id": 6378454,
+                                                    "name": "Test?Test",
+                                                    "description": null,
+                                                    "datatype": "Property",
+                                                    "parent_id": 6378417,
+                                                    "template_id": 6378126,
+                                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                                    "map_item": "#.Test?Test",
+                                                    "map_item_id": 3124202
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 6378358,
+                                    "name": "Stahlbetonelementdecke",
+                                    "description": null,
+                                    "datatype": "Type",
+                                    "parent_id": 6378274,
+                                    "template_id": 6378217,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "IfcBuildingElementProxy",
+                                    "map_item_id": 3124127
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 6378258,
+                    "name": "Tür",
+                    "description": null,
+                    "datatype": "Type",
+                    "parent_id": 6378243,
+                    "template_id": 6378172,
+                    "updated_at": "2021-11-23T10:45:44.046+01:00",
+                    "child_concept": [
+                        {
+                            "id": 6378276,
+                            "name": "Geometrie Türen",
+                            "description": "-",
+                            "datatype": "Group",
+                            "parent_id": 6378258,
+                            "template_id": 6378128,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "child_concept": [
+                                {
+                                    "id": 6378364,
+                                    "name": "LOG 100 - Tür",
+                                    "description": "Die Position der Türen wird entweder schematisch oder geometrisch mit einer ungefähren, noch flexiblen Geometrie dargestellt. Oft repräsentiert ein Massenmodell das gesamte Bauwerk in dieser Planungsphase.",
+                                    "datatype": "Geometry",
+                                    "parent_id": 6378276,
+                                    "template_id": 6378173,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378365,
+                                    "name": "LOG 200 - Tür",
+                                    "description": "Die Türen werden in ihrer ungefähren Form, Größe und Lage modelliert. Die Öffnungsart und Richtung wird angegeben.",
+                                    "datatype": "Geometry",
+                                    "parent_id": 6378276,
+                                    "template_id": 6378174,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378366,
+                                    "name": "LOG 300 - Tür",
+                                    "description": "Die Türen werden in ihrer genauen Form, Größe, mit sämtlichen Rahmendetails und Öffnungsflügeln modelliert.",
+                                    "datatype": "Geometry",
+                                    "parent_id": 6378276,
+                                    "template_id": 6378175,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378367,
+                                    "name": "LOG 400 - Tür",
+                                    "description": "Die Türen enthalten alle Details zur Fertigung. Alle Komponenten, Anschlüsse und die Details für die Vorfertigung und Montage werden detailliert modelliert. Ggf. werden die BIM Objekte der Hersteller verwendet.",
+                                    "datatype": "Geometry",
+                                    "parent_id": 6378276,
+                                    "template_id": 6378176,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378368,
+                                    "name": "LOG 500 - Tür",
+                                    "description": "Vollständige Modellierung der Türen im konkreten, gebauten Zustand. Sie sind Teil der Objektdokumentation und zur Archivierung des Bestands.",
+                                    "datatype": "Geometry",
+                                    "parent_id": 6378276,
+                                    "template_id": 6378177,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6378277,
+                            "name": "gemeinsame Eigenschaften Bauteile (Modelle)",
+                            "description": "Kopfdaten für alle Modellelemente",
+                            "datatype": "Group",
+                            "parent_id": 6378258,
+                            "template_id": 6378129,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "child_concept": [
+                                {
+                                    "id": 6378369,
+                                    "name": "Kostengruppe DIN 276",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378277,
+                                    "template_id": 6378178,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6378278,
+                            "name": "gemeinsame Eigenschaften Bauteile (IFC)",
+                            "description": "Kopfdaten für alle Modellelemente nach IFC",
+                            "datatype": "Group",
+                            "parent_id": 6378258,
+                            "template_id": 6378130,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "child_concept": [
+                                {
+                                    "id": 6378370,
+                                    "name": "Bauteilname",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378278,
+                                    "template_id": 6378179,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378371,
+                                    "name": "Typ",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378278,
+                                    "template_id": 6378180,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378372,
+                                    "name": "Beschreibung",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378278,
+                                    "template_id": 6378181,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6378279,
+                            "name": "gemeinsame Eigenschaften (IFC)",
+                            "description": "Gemeinsame IFC Eigenschaften",
+                            "datatype": "Group",
+                            "parent_id": 6378258,
+                            "template_id": 6378131,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "child_concept": [
+                                {
+                                    "id": 6378373,
+                                    "name": "Feuerwiderstandsklasse",
+                                    "description": "Feuerwiderstandsklasse gemäß der nationalen oder regionalen Brandschutzverordnung.",
+                                    "datatype": "Property",
+                                    "parent_id": 6378279,
+                                    "template_id": 6378182,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "child_concept": [
+                                        {
+                                            "id": 6378422,
+                                            "name": "F60",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378373,
+                                            "template_id": 6378219,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378423,
+                                            "name": "F90",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378373,
+                                            "template_id": 6378220,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378421,
+                                            "name": "F30",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378373,
+                                            "template_id": 6378218,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 6378374,
+                                    "name": "Rauchschutz",
+                                    "description": "Rauchschutz nach DIN 18095 / EN 16034-3",
+                                    "datatype": "Property",
+                                    "parent_id": 6378279,
+                                    "template_id": 6378183,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378375,
+                                    "name": "Schallschutzklasse",
+                                    "description": "Schallschutzklasse gemäß der nationalen oder regionalen Schallschutzverordnung DIN 4109",
+                                    "datatype": "Property",
+                                    "parent_id": 6378279,
+                                    "template_id": 6378184,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "child_concept": [
+                                        {
+                                            "id": 6378425,
+                                            "name": "2",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378375,
+                                            "template_id": 6378222,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378426,
+                                            "name": "3",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378375,
+                                            "template_id": 6378223,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378427,
+                                            "name": "4",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378375,
+                                            "template_id": 6378224,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378428,
+                                            "name": "5",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378375,
+                                            "template_id": 6378225,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378429,
+                                            "name": "6",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378375,
+                                            "template_id": 6378226,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378424,
+                                            "name": "1",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378375,
+                                            "template_id": 6378221,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 6378376,
+                                    "name": "Wärmedurchgangskoeffizient (U-Wert)",
+                                    "description": "Wärmedurchgangskoeffizient (U-Wert) der Materialschichten. Hier der Gesamtwärmedurchgangskoeffizient der Bekleidung (für alle Schichten).",
+                                    "datatype": "Property",
+                                    "parent_id": 6378279,
+                                    "template_id": 6378185,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6378280,
+                            "name": "spezieller Eigenschaftssatz Wände, Türen, Fenster, Fassaden",
+                            "description": null,
+                            "datatype": "Group",
+                            "parent_id": 6378258,
+                            "template_id": 6378132,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "child_concept": [
+                                {
+                                    "id": 6378377,
+                                    "name": "Breite Rohbau",
+                                    "description": "Bauteilbreite Rohbaumaß",
+                                    "datatype": "Property",
+                                    "parent_id": 6378280,
+                                    "template_id": 6378186,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378378,
+                                    "name": "Höhe Rohbau",
+                                    "description": "Bauteilhöhe Rohbaumaß",
+                                    "datatype": "Property",
+                                    "parent_id": 6378280,
+                                    "template_id": 6378187,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6378281,
+                            "name": "spezieller Eigenschaftssatz Türen (Modelle)",
+                            "description": null,
+                            "datatype": "Group",
+                            "parent_id": 6378258,
+                            "template_id": 6378133,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "child_concept": [
+                                {
+                                    "id": 6378387,
+                                    "name": "Türhöhe Rohbaumaß",
+                                    "description": "Türliste, Detailangabe",
+                                    "datatype": "Property",
+                                    "parent_id": 6378281,
+                                    "template_id": 6378196,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378388,
+                                    "name": "Türschliesser",
+                                    "description": "Ausstattung von Türen: Türschliesser. ",
+                                    "datatype": "Property",
+                                    "parent_id": 6378281,
+                                    "template_id": 6378197,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378389,
+                                    "name": "Zargenart",
+                                    "description": "Türliste, Detailangabe",
+                                    "datatype": "Property",
+                                    "parent_id": 6378281,
+                                    "template_id": 6378198,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378390,
+                                    "name": "Zargenstärke",
+                                    "description": "Türliste, Detailangabe",
+                                    "datatype": "Property",
+                                    "parent_id": 6378281,
+                                    "template_id": 6378199,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378391,
+                                    "name": "Zargentiefe",
+                                    "description": "Türliste, Detailangabe",
+                                    "datatype": "Property",
+                                    "parent_id": 6378281,
+                                    "template_id": 6378200,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378392,
+                                    "name": "Zulassungsnummer",
+                                    "description": "Türliste, Detailangabe",
+                                    "datatype": "Property",
+                                    "parent_id": 6378281,
+                                    "template_id": 6378201,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378379,
+                                    "name": "Art der Tür",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378281,
+                                    "template_id": 6378188,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "child_concept": [
+                                        {
+                                            "id": 6378433,
+                                            "name": "Wohnungstür",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378379,
+                                            "template_id": 6378230,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378430,
+                                            "name": "Fenster/Balkontür",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378379,
+                                            "template_id": 6378227,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378431,
+                                            "name": "Hauseingangstür",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378379,
+                                            "template_id": 6378228,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378432,
+                                            "name": "Technische Türen",
+                                            "description": "z.B. Lift, Schaltschrank,..",
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378379,
+                                            "template_id": 6378229,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378434,
+                                            "name": "Zimmertür",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378379,
+                                            "template_id": 6378231,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 6378380,
+                                    "name": "Bodenschwelle",
+                                    "description": "Eigenschaft Bodenschwelle",
+                                    "datatype": "Property",
+                                    "parent_id": 6378281,
+                                    "template_id": 6378189,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "child_concept": [
+                                        {
+                                            "id": 6378436,
+                                            "name": "mit Stufe",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378380,
+                                            "template_id": 6378233,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378435,
+                                            "name": "stufenlos",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378380,
+                                            "template_id": 6378232,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 6378381,
+                                    "name": "Durchgangsbreite",
+                                    "description": "Durchgangsbreite von Türen",
+                                    "datatype": "Property",
+                                    "parent_id": 6378281,
+                                    "template_id": 6378190,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378382,
+                                    "name": "Durchgangshöhe",
+                                    "description": "Türliste, Detailangabe",
+                                    "datatype": "Property",
+                                    "parent_id": 6378281,
+                                    "template_id": 6378191,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378383,
+                                    "name": "Fluchtweg Aussentür",
+                                    "description": "nicht abschliessbar, mit Notausgangsverschluss. Zu klären ist, wie die Türe trotz Fluchtfunktion abgeschlossen werden kann.",
+                                    "datatype": "Property",
+                                    "parent_id": 6378281,
+                                    "template_id": 6378192,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378384,
+                                    "name": "Obentürschließer",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378281,
+                                    "template_id": 6378193,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378385,
+                                    "name": "Offenhaltung",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378281,
+                                    "template_id": 6378194,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378386,
+                                    "name": "Türblattstärke",
+                                    "description": "Türliste, Detailangabe",
+                                    "datatype": "Property",
+                                    "parent_id": 6378281,
+                                    "template_id": 6378195,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6378282,
+                            "name": "spezieller Eigenschaftssatz Türen, Fenster",
+                            "description": null,
+                            "datatype": "Group",
+                            "parent_id": 6378258,
+                            "template_id": 6378134,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "child_concept": [
+                                {
+                                    "id": 6378393,
+                                    "name": "Anzahl der Scheiben",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378282,
+                                    "template_id": 6378202,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378394,
+                                    "name": "Aufschlagrichtung",
+                                    "description": "Aufschlagsrichtung von Türen und Fenstern",
+                                    "datatype": "Property",
+                                    "parent_id": 6378282,
+                                    "template_id": 6378203,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "child_concept": [
+                                        {
+                                            "id": 6378437,
+                                            "name": "DIN L",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378394,
+                                            "template_id": 6378234,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378438,
+                                            "name": "DIN R",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378394,
+                                            "template_id": 6378235,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 6378395,
+                                    "name": "Einbruchschutz",
+                                    "description": "Widerstandsklassen – Einbruchhemmende Bauteile nach DIN EN 1627",
+                                    "datatype": "Property",
+                                    "parent_id": 6378282,
+                                    "template_id": 6378204,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "child_concept": [
+                                        {
+                                            "id": 6378439,
+                                            "name": "RC1N",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378395,
+                                            "template_id": 6378236,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378440,
+                                            "name": "RC2N",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378395,
+                                            "template_id": 6378237,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378441,
+                                            "name": "RC2",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378395,
+                                            "template_id": 6378238,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378442,
+                                            "name": "RC3",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378395,
+                                            "template_id": 6378239,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378443,
+                                            "name": "RC4",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378395,
+                                            "template_id": 6378240,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378444,
+                                            "name": "RC5",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378395,
+                                            "template_id": 6378241,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378445,
+                                            "name": "RC6",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378395,
+                                            "template_id": 6378242,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 6378396,
+                                    "name": "Glasfläche",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378282,
+                                    "template_id": 6378205,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378397,
+                                    "name": "Sturzhöhe",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378282,
+                                    "template_id": 6378206,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6378283,
+                            "name": "spezieller Eigenschaftssatz Brandschutz",
+                            "description": null,
+                            "datatype": "Group",
+                            "parent_id": 6378258,
+                            "template_id": 6378135,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "child_concept": [
+                                {
+                                    "id": 6378398,
+                                    "name": "Brandfallsteuerung",
+                                    "description": "Türschliesser, Rauchklappen in Treppenhäusern etc.",
+                                    "datatype": "Property",
+                                    "parent_id": 6378283,
+                                    "template_id": 6378207,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378399,
+                                    "name": "Rauchabzugsfunktion Bauteil",
+                                    "description": "z.B. Dachoberlichter, Fassadenelemente, Fenster oder spezielle Klappen. Abhängig von Brandschutzkonzept.",
+                                    "datatype": "Property",
+                                    "parent_id": 6378283,
+                                    "template_id": 6378208,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6378284,
+                            "name": "spezieller Eigenschaftssatz Sicherheit",
+                            "description": null,
+                            "datatype": "Group",
+                            "parent_id": 6378258,
+                            "template_id": 6378136,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "child_concept": [
+                                {
+                                    "id": 6378400,
+                                    "name": "VSG Fläche",
+                                    "description": "Fläche des VS-Glases",
+                                    "datatype": "Property",
+                                    "parent_id": 6378284,
+                                    "template_id": 6378209,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                },
+                                {
+                                    "id": 6378401,
+                                    "name": "VSG Kennzeichnung",
+                                    "description": "Markierung und Typenbezeichnungen des VS-Glases",
+                                    "datatype": "Property",
+                                    "parent_id": 6378284,
+                                    "template_id": 6378210,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 6378257,
+                    "name": "Wand",
+                    "description": null,
+                    "datatype": "Type",
+                    "parent_id": 6378243,
+                    "template_id": 6378155,
+                    "updated_at": "2022-01-21T09:10:39.482+01:00",
+                    "map_item": "IfcWall",
+                    "map_item_id": 3124067,
+                    "child_concept": [
+                        {
+                            "id": 6378275,
+                            "name": "gemeinsame Eigenschaften",
+                            "description": null,
+                            "datatype": "Group",
+                            "parent_id": 6378257,
+                            "template_id": 6378108,
+                            "updated_at": "2021-09-29T10:38:44.394+02:00",
+                            "child_concept": [
+                                {
+                                    "id": 6378359,
+                                    "name": "Außenbauteil",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378275,
+                                    "template_id": 6378137,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.IsExternal",
+                                    "map_item_id": 3123893
+                                },
+                                {
+                                    "id": 6378360,
+                                    "name": "Bauteiltyp",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378275,
+                                    "template_id": 6378139,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.Reference",
+                                    "map_item_id": 3123945
+                                },
+                                {
+                                    "id": 6378361,
+                                    "name": "Feuerwiderstandsklasse",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378275,
+                                    "template_id": 6378140,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.FireRating",
+                                    "map_item_id": 3123946,
+                                    "child_concept": [
+                                        {
+                                            "id": 6378418,
+                                            "name": "F30",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378361,
+                                            "template_id": 6378211,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378419,
+                                            "name": "F60",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378361,
+                                            "template_id": 6378212,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        },
+                                        {
+                                            "id": 6378420,
+                                            "name": "F90",
+                                            "description": null,
+                                            "datatype": "Restriction",
+                                            "parent_id": 6378361,
+                                            "template_id": 6378213,
+                                            "updated_at": "2021-09-29T10:38:44.394+02:00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 6378362,
+                                    "name": "Tragendes Bauteil",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378275,
+                                    "template_id": 6378138,
+                                    "updated_at": "2021-09-29T10:38:44.394+02:00",
+                                    "map_item": "*.LoadBearing",
+                                    "map_item_id": 3123900
+                                },
+                                {
+                                    "id": 6378363,
+                                    "name": "Wärmedurchgangskoeffizient  (U-Wert)",
+                                    "description": null,
+                                    "datatype": "Property",
+                                    "parent_id": 6378275,
+                                    "template_id": 6378142,
+                                    "updated_at": "2022-06-21T09:46:33.463+02:00",
+                                    "map_item": "*.ThermalTransmittance",
+                                    "map_item_id": 3123948
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6378246,
+            "name": "Heizungsmodell",
+            "description": null,
+            "datatype": "Model",
+            "parent_id": null,
+            "template_id": 6378115,
+            "updated_at": "2021-09-29T10:38:44.394+02:00"
+        },
+        {
+            "id": 6378247,
+            "name": "Architekturmodell",
+            "description": "Das Architekturmodell ist die digitale Abbildung des geplanten Bauwerks aus architektonischer Sicht. Es wird als Basis für alle nachfolgen Fachmodelle verwendet.",
+            "datatype": "Model",
+            "parent_id": null,
+            "template_id": 6378117,
+            "updated_at": "2021-09-29T10:38:44.394+02:00"
+        }
+    ]
+}
