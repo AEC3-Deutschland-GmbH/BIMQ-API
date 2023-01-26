@@ -19,7 +19,7 @@
                         "code": null,
                         "ifcName": "IsExternal",
                         "unit": "Wahr/Falsch",
-                        "unit_reference": "Datatypes.IfcBoolean",
+                        "unit_reference": "IfcBoolean",
                         "values": []
                     },
                     {
@@ -28,11 +28,11 @@
                         "code": null,
                         "ifcName": "FireRating",
                         "unit": "Kennzeichen",
-                        "unit_reference": "Datatypes.IfcLabel",
+                        "unit_reference": "IfcLabel",
                         "values": [
-                            null,
-                            null,
-                            null
+                            "F90",
+                            "F60",
+                           "F30"
                         ]
                     }
                 ]
@@ -51,6 +51,8 @@
                 "psetName": "Pset_WallCommon",
                 "pName": "LoadBearing",
                 "value": "TRUE"
+                "unit" : "Wahr/Falsch"
+                "unit_reference" : "IfcBoolean"
             }
         ],
         "Attributes": [
@@ -75,7 +77,7 @@
                         "code": null,
                         "ifcName": "IsExternal",
                         "unit": "Wahr/Falsch",
-                        "unit_reference": "Datatypes.IfcBoolean",
+                        "unit_reference": "IfcBoolean",
                         "values": []
                     },
                     {
@@ -84,11 +86,11 @@
                         "code": null,
                         "ifcName": "FireRating",
                         "unit": "Kennzeichen",
-                        "unit_reference": "Datatypes.IfcLabel",
+                        "unit_reference": "IfcLabel",
                         "values": [
-                            null,
-                            null,
-                            null
+                            "F120",
+                            "F90",
+                            "F30"
                         ]
                     },
                     {
@@ -97,7 +99,7 @@
                         "code": null,
                         "ifcName": "ThermalTransmittance",
                         "unit": "Wärmedurchgängigkeit.Watts/m2 Kelvin",
-                        "unit_reference": "Measurements.IfcThermalTransmittanceMeasure.Watts/m2 Kelvin",
+                        "unit_reference": "IfcThermalTransmittanceMeasure.Watts/m2 Kelvin",
                         "values": []
                     }
                 ]
@@ -114,6 +116,8 @@
                 "psetName": "Pset_SlabCommon",
                 "pName": "IsExternal",
                 "value": "FALSE"
+                "unit" : "Wahr/Falsch"
+                "unit_reference" : "IfcBoolean"
             }
         ],
         "Attributes": [],
@@ -130,7 +134,7 @@
                         "code": null,
                         "ifcName": "IsExternal",
                         "unit": "Wahr/Falsch",
-                        "unit_reference": "Datatypes.IfcBoolean",
+                        "unit_reference": "IfcBoolean",
                         "values": []
                     },
                     {
@@ -139,7 +143,7 @@
                         "code": null,
                         "ifcName": "Reference",
                         "unit": "Identifizierungszeichen",
-                        "unit_reference": "Datatypes.IfcIdentifier",
+                        "unit_reference": "IfcIdentifier",
                         "values": []
                     },
                     {
@@ -148,7 +152,7 @@
                         "code": null,
                         "ifcName": "LoadBearing",
                         "unit": "Wahr/Falsch",
-                        "unit_reference": "Datatypes.IfcBoolean",
+                        "unit_reference": "IfcBoolean",
                         "values": []
                     },
                     {
@@ -157,7 +161,7 @@
                         "code": null,
                         "ifcName": "ThermalTransmittance",
                         "unit": "Wärmedurchgängigkeit.Watts/m2 Kelvin",
-                        "unit_reference": "Measurements.IfcThermalTransmittanceMeasure.Watts/m2 Kelvin",
+                        "unit_reference": "IfcThermalTransmittanceMeasure.Watts/m2 Kelvin",
                         "values": []
                     }
                 ]
@@ -183,7 +187,7 @@
                         "code": null,
                         "ifcName": "Testwert",
                         "unit": "Länge (nicht-negativ, >=0).m",
-                        "unit_reference": "Measurements.IfcNonNegativeLengthMeasure.METRE",
+                        "unit_reference": "IfcNonNegativeLengthMeasure.METRE",
                         "values": []
                     }
                 ]
