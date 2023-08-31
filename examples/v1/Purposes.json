@@ -8,7 +8,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 9",
+        "purpose_code": "19",
+        "translations": []
     },
     {
         "id": 26235,
@@ -19,7 +22,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 9",
+        "purpose_code": "07",
+        "translations": []
     },
     {
         "id": 26236,
@@ -30,7 +36,16 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 5/6/7",
+        "purpose_code": "21",
+        "translations": [
+            {
+                "language": "en",
+                "name": "Minimal requirements",
+                "description": "Minimal requirements for each phase"
+            }
+        ]
     },
     {
         "id": 26237,
@@ -41,7 +56,16 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 8",
+        "purpose_code": "21",
+        "translations": [
+            {
+                "language": "en",
+                "name": "Minimal requirements",
+                "description": "Minimal requirements for each phase"
+            }
+        ]
     },
     {
         "id": 26238,
@@ -52,7 +76,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 3/4",
+        "purpose_code": "04",
+        "translations": []
     },
     {
         "id": 26239,
@@ -63,7 +90,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 5/6/7",
+        "purpose_code": "05",
+        "translations": []
     },
     {
         "id": 26240,
@@ -74,7 +104,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 8",
+        "purpose_code": "06",
+        "translations": []
     },
     {
         "id": 26241,
@@ -85,7 +118,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 8",
+        "purpose_code": "08",
+        "translations": []
     },
     {
         "id": 26242,
@@ -96,7 +132,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 5/6/7",
+        "purpose_code": "09",
+        "translations": []
     },
     {
         "id": 26243,
@@ -107,7 +146,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 3/4",
+        "purpose_code": "10",
+        "translations": []
     },
     {
         "id": 26244,
@@ -118,7 +160,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 3/4",
+        "purpose_code": "16",
+        "translations": []
     },
     {
         "id": 26245,
@@ -129,7 +174,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 5/6/7",
+        "purpose_code": "17",
+        "translations": []
     },
     {
         "id": 26246,
@@ -140,7 +188,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 8",
+        "purpose_code": "18",
+        "translations": []
     },
     {
         "id": 26247,
@@ -151,7 +202,16 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 3/4",
+        "purpose_code": "21",
+        "translations": [
+            {
+                "language": "en",
+                "name": "Minimal requirements",
+                "description": "Minimal requirements for each phase"
+            }
+        ]
     },
     {
         "id": 26249,
@@ -162,7 +222,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 8",
+        "purpose_code": "20",
+        "translations": []
     },
     {
         "id": 26250,
@@ -173,7 +236,10 @@
         "has_input_er": false,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 8",
+        "purpose_code": "02",
+        "translations": []
     },
     {
         "id": 26251,
@@ -184,7 +250,10 @@
         "has_input_er": false,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 8",
+        "purpose_code": "14",
+        "translations": []
     },
     {
         "id": 26252,
@@ -195,7 +264,10 @@
         "has_input_er": false,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 5/6/7",
+        "purpose_code": "03",
+        "translations": []
     },
     {
         "id": 26253,
@@ -206,7 +278,10 @@
         "has_input_er": false,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 5/6/7",
+        "purpose_code": "11",
+        "translations": []
     },
     {
         "id": 26254,
@@ -217,7 +292,10 @@
         "has_input_er": false,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 8",
+        "purpose_code": "12",
+        "translations": []
     },
     {
         "id": 26255,
@@ -228,7 +306,10 @@
         "has_input_er": false,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 5/6/7",
+        "purpose_code": "15",
+        "translations": []
     },
     {
         "id": 26256,
@@ -239,7 +320,16 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 9",
+        "purpose_code": "21",
+        "translations": [
+            {
+                "language": "en",
+                "name": "Minimal requirements",
+                "description": "Minimal requirements for each phase"
+            }
+        ]
     },
     {
         "id": 26257,
@@ -250,7 +340,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 2",
+        "purpose_code": "03",
+        "translations": []
     },
     {
         "id": 26258,
@@ -261,7 +354,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 2",
+        "purpose_code": "11",
+        "translations": []
     },
     {
         "id": 26259,
@@ -272,7 +368,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 2",
+        "purpose_code": "15",
+        "translations": []
     },
     {
         "id": 26260,
@@ -283,7 +382,16 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 2",
+        "purpose_code": "21",
+        "translations": [
+            {
+                "language": "en",
+                "name": "Minimal requirements",
+                "description": "Minimal requirements for each phase"
+            }
+        ]
     },
     {
         "id": 26261,
@@ -294,7 +402,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 2",
+        "purpose_code": "01",
+        "translations": []
     },
     {
         "id": 26262,
@@ -305,7 +416,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 2",
+        "purpose_code": "02",
+        "translations": []
     },
     {
         "id": 26263,
@@ -316,7 +430,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 2",
+        "purpose_code": "04",
+        "translations": []
     },
     {
         "id": 26264,
@@ -327,7 +444,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 2",
+        "purpose_code": "05",
+        "translations": []
     },
     {
         "id": 26265,
@@ -338,7 +458,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 2",
+        "purpose_code": "06",
+        "translations": []
     },
     {
         "id": 26266,
@@ -349,7 +472,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 2",
+        "purpose_code": "13",
+        "translations": []
     },
     {
         "id": 26267,
@@ -360,7 +486,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 3/4",
+        "purpose_code": "13",
+        "translations": []
     },
     {
         "id": 26268,
@@ -371,7 +500,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 5/6/7",
+        "purpose_code": "13",
+        "translations": []
     },
     {
         "id": 26269,
@@ -382,7 +514,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 8",
+        "purpose_code": "13",
+        "translations": []
     },
     {
         "id": 26270,
@@ -393,7 +528,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "LPH 9",
+        "purpose_code": "13",
+        "translations": []
     },
     {
         "id": 26271,
@@ -404,7 +542,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "S2",
+        "purpose_code": "AWF 01",
+        "translations": []
     },
     {
         "id": 26272,
@@ -415,7 +556,10 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "S3",
+        "purpose_code": "AWF 01",
+        "translations": []
     },
     {
         "id": 26273,
@@ -426,6 +570,9 @@
         "has_input_er": true,
         "is_default": null,
         "created_at": "2021-09-29T10:38:44.394+02:00",
-        "updated_at": "2021-09-29T10:38:44.394+02:00"
+        "updated_at": "2021-09-29T10:38:44.394+02:00",
+        "phase_code": "S4",
+        "purpose_code": "AWF 12",
+        "translations": []
     }
 ]
