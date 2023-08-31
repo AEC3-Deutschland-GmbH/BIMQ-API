@@ -1,10 +1,24 @@
-# BIMQ-API
+# BIMQ: API
 
-Welcome to the documentation of the **BIMQ API**.
-You can find the full documentation via: [Postman (external site)](https://documenter.getpostman.com/view/17439674/UVJkAsuk).
+Welcome to the [BIMQ](https://bimq.de) API documentation.
 
-Demo response files for every available request of v1 can be found [here](https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/tree/main/Demofiles)
+## Getting Started
 
-Do you have questions or requests, as well as discovered errors? Please feel free to report them under '[Issues](https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/issues)'.
+### Endpoints
 
- ---
+You can find the full documentation
+on [Postman (external site)](https://documenter.getpostman.com/view/17439674/UVJkAsuk).
+
+### Example responses
+
+Demo response files for every available request are available as `JSON` files:
+
+| API Version | Examples                | Comments                                                                                                          |
+|-------------|-------------------------|-------------------------------------------------------------------------------------------------------------------|
+| v1          | [Examples](examples/v1) | 2023-08-31 Translations are added for Purposes, Phases and Actors. Phase and Purpose code for purposes are added. |
+
+## Contributing and Contact
+
+Do you have questions, feature requests or discovered any error?
+Please feel free to open an [Issue](https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/issues)
+or contact us via [support@bimq.de](mailto:support@bimq.de?subject=API).
