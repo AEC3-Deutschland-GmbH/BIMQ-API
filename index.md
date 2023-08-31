@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# BIMQ: API
 
-You can use the [editor on GitHub](https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Welcome to the [BIMQ](https://bimq.de) API documentation.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Getting Started
 
-### Markdown
+### Endpoints
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+You can find the full documentation
+on [Postman (external site)](https://documenter.getpostman.com/view/17439674/UVJkAsuk).
 
-```markdown
-Syntax highlighted code block
+### Example responses
 
-# Header 1
-## Header 2
-### Header 3
+Demo response files for every available request are available as `JSON` files:
 
-- Bulleted
-- List
+| API Version | Examples                | Comments                                                                                                          |
+|-------------|-------------------------|-------------------------------------------------------------------------------------------------------------------|
+| v1          | [Examples](examples/v1) | 2023-08-31 Translations are added for Purposes, Phases and Actors. Phase and Purpose code for purposes are added. |
 
-1. Numbered
-2. List
+## Contributing and Contact
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Do you have questions, feature requests or discovered any error?
+Please feel free to open an [Issue](https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/issues)
+or contact us via [support@bimq.de](mailto:support@bimq.de?subject=API).
