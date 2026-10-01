@@ -1,0 +1,1127 @@
+openapi: 3.1.0
+info:
+  title: BIMQ API
+  version: 1.0.0
+  description: 'Read access to BIMQ projects, requirements, templates and mappings for external applications (e.g.
+    model checkers and authoring software).
+
+
+    Authentication: OAuth 2.0 Authorization Code flow with PKCE (S256). Client ids must be registered with AEC3.
+    All data endpoints require an access token and return only data the authenticated user may access according
+    to the user''s roles in BIMQ.
+
+
+    Example responses: https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/tree/main/examples/v1'
+  contact:
+    name: AEC3 Deutschland GmbH – BIMQ Support
+    email: support@bimq.de
+    url: https://bimq.de
+servers:
+- url: https://{host}
+  description: BIMQ instance
+  variables:
+    host:
+      default: server.bim-q.de
+      description: Host name of the BIMQ instance. BIMQ is operated as several instances; server.bim-q.de is one
+        of them. Customers with a dedicated instance use the host name of their instance.
+security:
+- bimqOAuth: []
+tags:
+- name: Projects
+- name: Phase-based projects
+- name: Milestone-based projects
+- name: Concepts
+- name: Requirements
+- name: Mappings
+paths:
+  /api/v1/contexts.json:
+    get:
+      operationId: getContexts
+      summary: Get Contexts
+      description: Returns all projects (contexts) the authenticated user can access.
+      tags:
+      - Projects
+      parameters: []
+      responses:
+        '200':
+          description: 'Successful response. Example: https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/blob/main/examples/v1/Contexts.json'
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Context'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /api/v1/contexts/{context_id}/actors.json:
+    get:
+      operationId: getActors
+      summary: Get Actors
+      description: Returns all actors defined for a project. Translations are included if available.
+      tags:
+      - Projects
+      parameters:
+      - $ref: '#/components/parameters/context_id'
+      responses:
+        '200':
+          description: 'Successful response. Example: https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/blob/main/examples/v1/Actors.json'
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Actor'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /api/v1/contexts/{context_id}/models.json:
+    get:
+      operationId: getModels
+      summary: Get Models
+      description: Returns all models for a given project and actor.
+      tags:
+      - Projects
+      parameters:
+      - $ref: '#/components/parameters/context_id'
+      - $ref: '#/components/parameters/actor_id'
+      responses:
+        '200':
+          description: 'Successful response. Example: https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/blob/main/examples/v1/Models.json'
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Model'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /api/v1/contexts/{context_id}/mappings.json:
+    get:
+      operationId: getMappings
+      summary: Get Mapping Informations
+      description: Returns all mappings defined for a project.
+      tags:
+      - Mappings
+      parameters:
+      - $ref: '#/components/parameters/context_id'
+      responses:
+        '200':
+          description: 'Successful response. Example: https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/blob/main/examples/v1/Mapping_Informations.json'
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Mapping'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /api/v1/contexts/{context_id}/phases.json:
+    get:
+      operationId: getPhases
+      summary: Get Phases
+      description: Returns all project phases of a phase-based project. Translations are included if available.
+      tags:
+      - Phase-based projects
+      parameters:
+      - $ref: '#/components/parameters/context_id'
+      responses:
+        '200':
+          description: 'Successful response. Example: https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/blob/main/examples/v1/Phases.json'
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Phase'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /api/v1/contexts/{context_id}/purposes.json:
+    get:
+      operationId: getPurposes
+      summary: Get Purposes
+      description: Returns all use cases (purposes) of a phase-based project. Translations are included if available.
+      tags:
+      - Phase-based projects
+      parameters:
+      - $ref: '#/components/parameters/context_id'
+      responses:
+        '200':
+          description: 'Successful response. Example: https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/blob/main/examples/v1/Purposes.json'
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Purpose'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /api/v1/contexts/{context_id}/milestones.json:
+    get:
+      operationId: getMilestones
+      summary: Get Milestones
+      description: Returns all milestones of a milestone-based project. Defined data drops are included.
+      tags:
+      - Milestone-based projects
+      parameters:
+      - $ref: '#/components/parameters/context_id'
+      responses:
+        '200':
+          description: Successful response.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Milestone'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /api/v1/contexts/{context_id}/milestones/{id}.json:
+    get:
+      operationId: getMilestone
+      summary: Get Milestone
+      description: Returns a single milestone of a milestone-based project.
+      tags:
+      - Milestone-based projects
+      parameters:
+      - $ref: '#/components/parameters/context_id'
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: integer
+        description: Milestone id.
+      responses:
+        '200':
+          description: Successful response.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Milestone'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /api/v1/contexts/{context_id}/use_cases.json:
+    get:
+      operationId: getUseCases
+      summary: Get Use Cases
+      description: Returns all use cases of a milestone-based project including the corresponding milestones.
+      tags:
+      - Milestone-based projects
+      parameters:
+      - $ref: '#/components/parameters/context_id'
+      responses:
+        '200':
+          description: Successful response.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/UseCase'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /api/v1/contexts/{context_id}/data_drops.json:
+    get:
+      operationId: getDataDrops
+      summary: Get Data Drops
+      description: Returns all data drops of a project including the corresponding milestones.
+      tags:
+      - Milestone-based projects
+      parameters:
+      - $ref: '#/components/parameters/context_id'
+      responses:
+        '200':
+          description: Successful response.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/DataDrop'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /api/v1/contexts/{context_id}/concepts.json:
+    get:
+      operationId: getConcepts
+      summary: Get Concepts
+      description: Returns a flat list of all concepts defined in a project.
+      tags:
+      - Concepts
+      parameters:
+      - $ref: '#/components/parameters/context_id'
+      responses:
+        '200':
+          description: 'Successful response. Example: https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/blob/main/examples/v1/Concepts.json'
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Concept'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /api/v1/contexts/{context_id}/get_concept_tree.json:
+    get:
+      operationId: getConceptTree
+      summary: Get Concept Tree
+      description: Returns all concepts of a project as a tree. Either templates or requirements can be returned.
+      tags:
+      - Concepts
+      parameters:
+      - $ref: '#/components/parameters/context_id'
+      - name: template
+        in: query
+        required: true
+        schema:
+          type: boolean
+        description: true returns templates, false returns requirements.
+      - $ref: '#/components/parameters/mapping_id'
+      - name: root_node_id
+        in: query
+        required: false
+        schema:
+          type: integer
+        description: Id of the root node (optional).
+      responses:
+        '200':
+          description: 'Successful response. Example: https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/blob/main/examples/v1/Concept_Tree.json'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConceptTree'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /api/v1/contexts/{context_id}/conceptmapitem.json:
+    get:
+      operationId: getConceptsAndMapItems
+      summary: Get Concepts and Map Items
+      description: Returns every concept of a certain type in a project together with its map item for the given
+        mapping.
+      tags:
+      - Concepts
+      parameters:
+      - $ref: '#/components/parameters/context_id'
+      - $ref: '#/components/parameters/mapping_id'
+      - name: type
+        in: query
+        required: false
+        schema:
+          type: string
+          enum:
+          - Type
+          - Group
+          - Property
+        description: 'Type of map items to return: Type (elements), Group (groups), Property (properties).'
+      responses:
+        '200':
+          description: 'Successful response. Example: https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/blob/main/examples/v1/Concepts_and_Map_item.json'
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ConceptMapItem'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /api/v1/contexts/{context_id}/required_concepts.json:
+    get:
+      operationId: getRequiredConcepts
+      summary: Get Requirements
+      description: Returns all concepts (properties and values) required by the given purposes or milestones.
+      tags:
+      - Requirements
+      parameters:
+      - $ref: '#/components/parameters/context_id'
+      - $ref: '#/components/parameters/actor_id'
+      - $ref: '#/components/parameters/subsections'
+      responses:
+        '200':
+          description: 'Successful response. Example: https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/blob/main/examples/v1/Concepts_for_Purpose.json'
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/RequiredConcept'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /api/v1/map_items.json:
+    get:
+      operationId: getMapItems
+      summary: Get Map Items for Mapping ID
+      description: Returns all map items defined for a mapping.
+      tags:
+      - Mappings
+      parameters:
+      - $ref: '#/components/parameters/mapping_id'
+      responses:
+        '200':
+          description: 'Successful response. Example: https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/blob/main/examples/v1/Map_items_for_Mapping_id.json'
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/MapItem'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /contexts/{context_id}.json:
+    get:
+      operationId: getIfcRequirements
+      summary: Get IFC Requirements
+      description: 'Returns the requirements of a project for an IFC export (e.g. as rule parameters for model checking).
+        Workflow: determine context_id (Get Contexts), actor_id (Get Actors), model_id (Get Models), ifc_datastructure_id
+        (Get Mapping Informations) and the phase/purpose or milestone ids (Get Phases, Get Purposes).'
+      tags:
+      - Requirements
+      parameters:
+      - $ref: '#/components/parameters/context_id'
+      - name: variant
+        in: query
+        required: true
+        schema:
+          type: string
+          enum:
+          - ifc_export
+        description: Export system.
+      - $ref: '#/components/parameters/ifc_datastructure_id'
+      - $ref: '#/components/parameters/actor_id'
+      - $ref: '#/components/parameters/model_id'
+      - $ref: '#/components/parameters/subsections'
+      responses:
+        '200':
+          description: 'Successful response. Example: https://github.com/AEC3-Deutschland-GmbH/BIMQ-API/blob/main/examples/v1/IFC_Requirements.json'
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/IfcRequirement'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /contexts/{context_id}.mvdxml:
+    get:
+      operationId: getMvdXmlRules
+      summary: Get mvdXML Rules
+      description: Returns the requirements of a project in the mvdXML format.
+      tags:
+      - Requirements
+      parameters:
+      - $ref: '#/components/parameters/context_id'
+      - $ref: '#/components/parameters/ifc_datastructure_id'
+      - $ref: '#/components/parameters/actor_id'
+      - $ref: '#/components/parameters/model_id'
+      - $ref: '#/components/parameters/process_ids'
+      responses:
+        '200':
+          description: Successful response.
+          content:
+            application/xml:
+              schema:
+                type: string
+                description: mvdXML document.
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+  /contexts/{context_id}.desitexml:
+    get:
+      operationId: getDesiteRules
+      summary: Get DESITE Rules
+      description: Returns the requirements of a project in the DESITE XML format.
+      tags:
+      - Requirements
+      parameters:
+      - $ref: '#/components/parameters/context_id'
+      - $ref: '#/components/parameters/ifc_datastructure_id'
+      - $ref: '#/components/parameters/actor_id'
+      - $ref: '#/components/parameters/model_id'
+      - $ref: '#/components/parameters/subsections'
+      responses:
+        '200':
+          description: Successful response.
+          content:
+            application/xml:
+              schema:
+                type: string
+                description: DESITE XML document.
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+components:
+  securitySchemes:
+    bimqOAuth:
+      type: oauth2
+      description: OAuth 2.0 Authorization Code flow with PKCE (code_challenge_method S256). Authorization and token
+        endpoints are provided by each BIMQ instance and are resolved relative to the server URL (e.g. https://{host}/oauth/authorize).
+        The access token is sent as Bearer token in the Authorization header. A refresh token is issued together
+        with the access token.
+      flows:
+        authorizationCode:
+          authorizationUrl: /oauth/authorize
+          tokenUrl: /oauth/token
+          refreshUrl: /oauth/token
+          scopes: {}
+  parameters:
+    context_id:
+      name: context_id
+      in: path
+      required: true
+      schema:
+        type: integer
+      description: Project (context) id. It can be taken from Get Contexts or from the project URL in BIMQ.
+    actor_id:
+      name: actor_id
+      in: query
+      required: true
+      schema:
+        type: integer
+      description: Actor id (see Get Actors).
+    mapping_id:
+      name: mapping_id
+      in: query
+      required: true
+      schema:
+        type: integer
+      description: Mapping id (see Get Mapping Informations).
+    model_id:
+      name: model_id
+      in: query
+      required: true
+      schema:
+        type: integer
+      description: Model id (see Get Models).
+    ifc_datastructure_id:
+      name: ifc_datastructure_id
+      in: query
+      required: true
+      schema:
+        type: integer
+      description: Id of the IFC schema mapping (mapping of type DataStructure, see Get Mapping Informations).
+    subsections:
+      name: subsections[]
+      in: query
+      required: true
+      style: form
+      explode: true
+      schema:
+        type: array
+        items:
+          type: integer
+      description: Ids of all milestones or processes (phases/purposes) to be exported.
+    process_ids:
+      name: phase[process_ids][]
+      in: query
+      required: true
+      style: form
+      explode: true
+      schema:
+        type: array
+        items:
+          type: integer
+      description: Ids of the processes (phases/purposes) to be exported.
+  responses:
+    Unauthorized:
+      description: Missing, invalid or expired access token.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+    Forbidden:
+      description: The authenticated user has no access to the requested project.
+    NotFound:
+      description: The requested resource does not exist.
+  schemas:
+    Actor:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        code:
+          type: string
+        description:
+          type:
+          - 'null'
+          - string
+        context_id:
+          type: integer
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+        translations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Translation'
+      required:
+      - id
+      description: An actor (discipline, e.g. structural engineer) defined in a project.
+    ActorRef:
+      type: object
+      description: Short reference to an actor (BIMQ 2.9 and higher, for concepts of type geometry and property).
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        code:
+          type: string
+    Concept:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        code:
+          type:
+          - 'null'
+          - string
+        description:
+          type:
+          - 'null'
+          - string
+        datatype:
+          type: string
+        actor_id:
+          type:
+          - integer
+          - 'null'
+        template_id:
+          type:
+          - integer
+          - 'null'
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+      required:
+      - id
+      description: A concept (element, group, property or value) of a project, flat representation.
+    ConceptMapItem:
+      type: object
+      properties:
+        name:
+          type: string
+        id:
+          type: integer
+        type:
+          type: string
+        updated_at:
+          type: string
+          format: date-time
+        map_item_name:
+          type: string
+        map_item_id:
+          type: integer
+        map_item_concept_reference_name:
+          type: string
+        map_item_created_at:
+          type: string
+          format: date-time
+        map_item_updated_at:
+          type: string
+          format: date-time
+        map_item_user_defined_type:
+          type: string
+        map_item_predefined_type:
+          type: string
+      required:
+      - id
+      description: A concept with its map item for a given mapping.
+    ConceptTree:
+      type: object
+      description: Concept tree of a project.
+      properties:
+        project:
+          type: string
+        project_id:
+          type: integer
+        project_overview:
+          type: array
+          items:
+            $ref: '#/components/schemas/ConceptTreeNode'
+      required:
+      - project
+      - project_id
+      - project_overview
+    ConceptTreeNode:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        code:
+          type:
+          - 'null'
+          - string
+        description:
+          type:
+          - 'null'
+          - string
+        datatype:
+          type: string
+        parent_id:
+          type:
+          - integer
+          - 'null'
+        template_id:
+          type: integer
+        updated_at:
+          type: string
+          format: date-time
+        map_item_id:
+          type: integer
+        map_item:
+          type: string
+        unit:
+          type: string
+        unit_reference:
+          type: string
+        actor:
+          $ref: '#/components/schemas/ActorRef'
+        child_concept:
+          type: array
+          items:
+            $ref: '#/components/schemas/ConceptTreeNode'
+      required:
+      - id
+      - name
+      description: A node of the concept tree. Child concepts are nested recursively.
+    Context:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        description:
+          type: string
+        release:
+          type: string
+        guide_language:
+          type: string
+        status:
+          type: string
+        public:
+          type: boolean
+        picklist_type:
+          type: string
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+        url:
+          type: string
+      required:
+      - id
+      description: A project. Projects are called contexts in the BIMQ data structure.
+    DataDrop:
+      type: object
+      additionalProperties: true
+      description: DataDrop of a milestone-based project. Detailed schema to be completed.
+    Error:
+      type: object
+      description: Error response.
+      properties:
+        error:
+          type: string
+        error_description:
+          type: string
+    IfcRequirement:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        code:
+          type: string
+        ifcType:
+          type: string
+        classificationByPropertyDefinitions:
+          type: array
+          items:
+            type: object
+            properties:
+              psetName:
+                type: string
+              pName:
+                type: string
+              value:
+                type: string
+              unit:
+                type: string
+              unit_reference:
+                type: string
+        Attributes:
+          type: array
+          items:
+            type: object
+            properties:
+              id:
+                type: integer
+              name:
+                type: string
+              code:
+                type:
+                - 'null'
+                - string
+              ifcName:
+                type: string
+              values:
+                type: array
+                items: {}
+            required:
+            - id
+        propertySetSpecifications:
+          type: array
+          items:
+            type: object
+            properties:
+              id:
+                type: integer
+              name:
+                type: string
+              code:
+                type:
+                - 'null'
+                - string
+              ifcName:
+                type: string
+              properties:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                    name:
+                      type: string
+                    code:
+                      type:
+                      - 'null'
+                      - string
+                    ifcName:
+                      type: string
+                    unit:
+                      type: string
+                    unit_reference:
+                      type: string
+                    values:
+                      type: array
+                      items:
+                        type: string
+                  required:
+                  - id
+            required:
+            - id
+        ifcPredefinedType:
+          type: string
+        ifcObjectType:
+          type: string
+      required:
+      - id
+      description: Requirements for an IFC entity (property sets, properties, allowed values).
+    MapItem:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        code:
+          type:
+          - 'null'
+          - string
+        description:
+          type:
+          - 'null'
+          - string
+        concept_id:
+          type: integer
+        concept_reference_name:
+          type:
+          - 'null'
+          - string
+        predefinedtype:
+          type:
+          - 'null'
+          - string
+        user_defined_type:
+          type:
+          - 'null'
+          - string
+        extended_settings:
+          type: object
+          properties:
+            property:
+              type:
+              - array
+              - 'null'
+              items:
+                type: object
+                properties:
+                  property_group_id:
+                    type: integer
+                  property_id:
+                    type: integer
+                  property_name:
+                    type: string
+                  property_value:
+                    type: string
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+      required:
+      - id
+      description: A map item of a mapping.
+    Mapping:
+      type: object
+      properties:
+        id:
+          type: integer
+        target:
+          type: string
+        edition:
+          type: string
+        type:
+          type: string
+        link:
+          type:
+          - 'null'
+          - string
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+      required:
+      - id
+      description: A mapping target defined for a project (IFC data structure, classification, language, authoring
+        software).
+    Milestone:
+      type: object
+      additionalProperties: true
+      description: Milestone of a milestone-based project. Detailed schema to be completed.
+    Model:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        code:
+          type: string
+        description:
+          type:
+          - 'null'
+          - string
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+      required:
+      - id
+      description: A model (e.g. architectural model) for a project and actor.
+    Phase:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        code:
+          type: string
+        description:
+          type: string
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+        translations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Translation'
+      required:
+      - id
+      description: A project phase of a phase-based project.
+    Purpose:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        code:
+          type: string
+        description:
+          type: string
+        phase_id:
+          type: integer
+        has_input_er:
+          type: boolean
+        is_default:
+          type:
+          - 'null'
+          - string
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+        phase_code:
+          type: string
+        purpose_code:
+          type: string
+        translations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Translation'
+      required:
+      - id
+      description: A use case (purpose) belonging to a phase.
+    RequiredConcept:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        code:
+          type:
+          - 'null'
+          - string
+        description:
+          type:
+          - 'null'
+          - string
+        datatype:
+          type: string
+        actor_id:
+          type: integer
+        template_id:
+          type: integer
+        parent_id:
+          type: integer
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+        values:
+          type: array
+          items:
+            type: object
+            properties:
+              id:
+                type: integer
+              name:
+                type: string
+            required:
+            - id
+      required:
+      - id
+      description: A concept required by a purpose or milestone.
+    Translation:
+      type: object
+      description: Translation of name and description.
+      properties:
+        language:
+          type: string
+        name:
+          type: string
+        description:
+          type:
+          - 'null'
+          - string
+    UseCase:
+      type: object
+      additionalProperties: true
+      description: UseCase of a milestone-based project. Detailed schema to be completed.
